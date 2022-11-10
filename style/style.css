@@ -7,4 +7,30 @@
   /*font-family: 'Fredoka One', cursive;
     font-family: 'Poppins', sans-serif;
   */
-  
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-bg-color);
+}
+
+.container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+
+}
+.text{
+ padding: 15px;
+ width: 30em;
+ border: solid #BB99DD;
+ text-align: center;
+ color: var(--purple);
+ font-weight: bold;
+
+}
+#cardText{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
