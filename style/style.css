@@ -17,20 +17,43 @@
  display: flex;
  flex-direction: column;
  align-items: center;
+ padding:10px;
+ margin-top: 80px;
  
 
 }
+#fotoperfil{
+  width: 180px;
+  border-radius: 90px;
+}
+.title{
+   color: var(--purple);
+   margin-bottom: 20px;
+}
 .text{
- padding: 15px;
- width: 30em;
+ padding: 3%;
+ width: 20rem;
  border: solid #BB99DD;
  text-align: center;
  color: var(--purple);
  font-weight: bold;
+ border-radius: 4px;
 
+}
+.text a{
+  color: var(--purple);
+  text-decoration: none;
 }
 #cardText{
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+.icons{
+  padding-top: 50px;
+
+}
+.icons img{
+  justify-content: space-between;
+  padding: 10px;
 }
