@@ -24,7 +24,10 @@
 }
 #fotoperfil{
   width: 180px;
-  border-radius: 90px;
+  border-radius: 100%;
+  border: solid #BB99DD;
+  padding: 5px;
+  -webkit-mask-image: linear-gradient(to top, transparent 1%, black 30%);
 }
 .title{
    color: var(--purple);
